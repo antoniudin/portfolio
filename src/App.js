@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 
 function App() {
-
+  var z=0
   var x = 0
   var y = 500
   var prevScrollpos = window.pageYOffset;
@@ -43,7 +43,7 @@ function App() {
       
   }
   
-  
+
   
   return (
     <div className="App">
